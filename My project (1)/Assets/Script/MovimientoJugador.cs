@@ -20,7 +20,12 @@ public class MovimientoJugador : MonoBehaviour
         movimientoEjeX = - Input.GetAxis("Horizontal") * Time.deltaTime;
         movimientoEjeZ = - Input.GetAxis("Vertical") * Time.deltaTime;
         transform.Translate(movimientoEjeX * m_Velocidad, movimientoEjeY, movimientoEjeZ * m_Velocidad);
-
-
     }
+
+
+    
+
+
+
 }
+

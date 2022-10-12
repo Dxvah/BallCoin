@@ -524,7 +524,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 843416947}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.25, y: 0.82, z: -5.49}
+  m_LocalPosition: {x: -1.99, y: 0.82, z: -5.49}
   m_LocalScale: {x: 0.1848689, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -654,7 +654,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 992850009}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.3591752, y: 2.35, z: 8.12}
+  m_LocalPosition: {x: -2.3591752, y: 1.7, z: 8.12}
   m_LocalScale: {x: 0.1848689, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -748,6 +748,7 @@ GameObject:
   - component: {fileID: 1117371997}
   - component: {fileID: 1117371996}
   - component: {fileID: 1117372000}
+  - component: {fileID: 1117372001}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -763,7 +764,7 @@ SphereCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1117371995}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.5
@@ -847,6 +848,19 @@ MonoBehaviour:
   movimientoEjeX: 0
   movimientoEjeY: 0
   movimientoEjeZ: 0
+--- !u!65 &1117372001
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1117371995}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1.0000001}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1175586680
 GameObject:
   m_ObjectHideFlags: 0
@@ -1586,7 +1600,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1686359061}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.9, y: 0.82, z: -0.53999996}
+  m_LocalPosition: {x: -13.4, y: 0.82, z: 13.8}
   m_LocalScale: {x: 0.1848689, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
